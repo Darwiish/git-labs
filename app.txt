@@ -6,6 +6,8 @@ This document explains the workflow for creating and merging a feature branch (`
 
 ## Feature Branch Workflow
 
+```text
+
          Start on main
                |
                v
