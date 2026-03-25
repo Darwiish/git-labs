@@ -48,7 +48,7 @@ git push --set-upstream origin feature-1
 
 ## Visual Diagram
 
-
+```text
         ┌─────────────┐
         │    main     │
         │ "Hello from main"
