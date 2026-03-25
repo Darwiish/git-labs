@@ -1,3 +1,28 @@
 Hello from main
 Main branch change
 feature branch change
+---
+
+# Merged Branches Workflow (main + feature-1)
+
+This diagram shows the `feature-1` branch merged into `main`.
+
+```text
+        ┌─────────────┐
+        │    main     │
+        │ "Hello from main"
+        │ "Main branch change"
+        └─────────────┘
+               │
+       ┌───────┴────────┐
+       │   feature-1    │
+       │ "feature branch change" │
+       └─────────────┘
+               │
+               ▼
+        ┌─────────────┐
+        │    main     │
+        │ "Hello from main"
+        │ "Main branch change"
+        │ "feature branch change"
+        └─────────────┘
