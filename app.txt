@@ -1,7 +1,50 @@
+# Branching & Merging Workflow
 
-# Merged Branches Workflow (main + feature-1)
+This document explains the workflow for creating and merging a feature branch (`feature-1`) into `main` using Git.
 
-This diagram shows the `feature-1` branch merged into `main`.
+---
+
+## Feature Branch Workflow
+
+         Start on main
+               |
+               v
+   git checkout -b feature-1
+               |
+               v
+        Make changes in app files
+               |
+               v
+          git add <files>
+               |
+               v
+       git commit -m "Add feature-1 changes"
+               |
+               v
+git push --set-upstream origin feature-1
+               |
+               v
+         Create Pull Request
+               |
+               v
+          Merge feature-1 into main
+               |
+               v
+        Delete feature branch (local & remote)
+
+---
+
+## Example Changes
+
+- main branch:
+  - "Hello from main"
+  - "Main branch change"
+- feature-1 branch:
+  - "feature branch change"
+
+---
+
+## Visual Diagram
 
 ```text
         ┌─────────────┐
