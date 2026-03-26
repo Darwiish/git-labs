@@ -46,13 +46,12 @@ WD:    (empty)        (all working changes lost)
 
 ---
 # Command Summary
-- Command	       - Effect
-- git restore <file>	Undo changes in working directory
-- git restore --staged <file>	Unstage a file without discarding changes
-- git reset --soft <commit>	Undo commits, keep changes staged
-- git reset --mixed <commit>	Undo commits, unstage changes, keep working directory
-- git reset --hard <commit>	Undo commits and discard all changes
-- git revert <commit>	Create a new commit that reverses a previous commit
+- git restore <file>	          Undo changes in working directory
+- git restore --staged <file> 	Unstage a file without discarding changes
+- git reset --soft <commit>	     Undo commits, keep changes staged
+- git reset --mixed <commit>	     Undo commits, unstage changes, keep working directory
+- git reset --hard <commit>	     Undo commits and discard all changes
+- git revert <commit>	         Create a new commit that reverses a previous commit
 - git log --oneline	View commit history concisely
 
 
