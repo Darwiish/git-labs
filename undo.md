@@ -45,7 +45,7 @@ WD:    (empty)        (all working changes lost)
 ```
 
 ---
-- Command Summary
+# Command Summary
 - Command	Effect
 - git restore <file>	Undo changes in working directory
 - git restore --staged <file>	Unstage a file without discarding changes
