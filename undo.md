@@ -15,9 +15,11 @@ git restore --staged <file> → unstage a file
 git reset                   → undo commits (soft/mixed/hard)
 git revert                  → create a new commit that reverses a previous one
 
+```
 
 
 ```
+
 
 HEAD -> Commit history
 Index -> Staging area
@@ -43,8 +45,9 @@ HEAD -> Commit1
 Index: (empty)        (staged changes lost)
 WD:    (empty)        (all working changes lost)
 
-
 ```
+
+---
 
 Command Summary
 Command	Effect
@@ -56,8 +59,9 @@ git reset --hard <commit>	Undo commits and discard all changes
 git revert <commit>	Create a new commit that reverses a previous commit
 git log --oneline	View commit history concisely
 
----
 
+---
+```
 Conclusion
 
 Understanding Git’s undo commands is essential for safe and efficient version control.
