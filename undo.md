@@ -43,7 +43,8 @@ HEAD -> Commit1
 Index: (empty)        (staged changes lost)
 WD:    (empty)        (all working changes lost)
 
----
+
+```
 
 Command Summary
 Command	Effect
