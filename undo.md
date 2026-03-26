@@ -2,7 +2,7 @@
 
 This document explains how to undo changes in Git, including file-level, staging-level, and commit-level operations.
 
-```text
+```
 
 Working Directory   →   Staging Area (Index)   →   Git Repository (Commits)
      file changes            git add                 git commit
@@ -17,7 +17,7 @@ git revert                  → create a new commit that reverses a previous one
 
 ---
 
-```text
+```
 
 HEAD -> Commit history
 Index -> Staging area
