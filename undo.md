@@ -1,5 +1,7 @@
 # Undoing in Git
 
+This document explains how to undo changes in Git, including file-level, staging-level, and commit-level operations.
+
 ```text
 
 Working Directory   →   Staging Area (Index)   →   Git Repository (Commits)
