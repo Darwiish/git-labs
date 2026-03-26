@@ -15,7 +15,7 @@ git restore --staged <file> → unstage a file
 git reset                   → undo commits (soft/mixed/hard)
 git revert                  → create a new commit that reverses a previous one
 
----
+
 
 ```
 
