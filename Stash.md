@@ -1,6 +1,6 @@
 #  Git Stash Guide
 
------
+```
          Start working on main
                |
                v
@@ -47,7 +47,7 @@
                |
                v
    Continue working or commit
-
+```
 -----
 
 ## Example Changes
@@ -67,7 +67,7 @@
 
 ## Visual Diagram
 
-```text
+```
         ┌─────────────┐
         │   Working   │
         │ "incomplete work"
@@ -99,7 +99,7 @@
         │   Working   │
         │ restored WIP│
         └─────────────┘
----
+```
 
 - git stash push -m "message"   # Save changes
 - git stash -u                  # Include untracked files
