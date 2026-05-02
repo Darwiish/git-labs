@@ -1,7 +1,8 @@
 #  Git Key Commands
 ```
-
+```
 ##  CORE WORKFLOW
+```
 git status                  # Check current state
 git add .                   # Stage all changes
 git commit -m "message"     # Commit changes
