@@ -17,7 +17,7 @@ git checkout -b <name>      # Create & switch (classic)
 git switch -c <name>        # Create & switch (modern)
 
 ------
-
+```
 ##  MERGING
 ```
 git merge <branch>          # Merge into current branch
