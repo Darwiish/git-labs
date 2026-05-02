@@ -1,6 +1,6 @@
-# Git Key Commands
-------
+Git Key Commands
 ```
+------
 ## ===== CORE WORKFLOW =====
 git status                  # Check current state
 git add .                   # Stage all changes
@@ -26,17 +26,17 @@ git push -u origin feature/my-feature
 git merge feature/my-feature
 ```
 --------
-
-# ===== FLOW =====
 ```
+===== FLOW =====
+
 Local → add → commit → push → Remote
   ↑                              ↓
   └──────────── pull ────────────┘
 ```
 --------
-
-# ===== USEFUL =====
 ```
+===== USEFUL =====
+
 git log                     # Commit history
 git diff                    # Show changes
 git reset --soft HEAD~1     # Undo last commit (keep changes)
