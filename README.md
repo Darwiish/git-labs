@@ -1,6 +1,5 @@
 #  Git Key Commands
-```
-```
+
 ##  CORE WORKFLOW
 ```
 git status                  # Check current state
